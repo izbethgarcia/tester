@@ -1,98 +1,45 @@
-/* Base styling */
-body {
-  margin: 0;
-  font-family: 'Georgia', serif;
-  background-color: #f5f2ee;
-  background-image: url('../images/background.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-  color: #333;
-}
+ body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background-color: #f5f2ee;
+      color: #333;
+    }
+    header {
+      background-color: rgba(240,235,230,0.95);
+      text-align: center;
+      padding: 20px;
+      border-bottom: 3px solid #8b7b6d;
+    }
+    nav {
+      text-align: center;
+      background-color: #d8cbbd;
+      padding: 10px;
+    }
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #5a4633;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #9a7657;
+    }
+    main {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section {
+      margin-bottom: 30px;
+      background-color: rgba(255,255,255,0.85);
+      padding: 15px;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      background-color: rgba(240,235,230,0.95);
+      padding: 20px;
+      border-top: 3px solid #8b7b6d;
+      font-size: 0.9em;
+    }
 
-/* Header */
-header {
-  background-color: rgba(240, 235, 230, 0.95);
-  text-align: center;
-  padding: 20px;
-  border-bottom: 3px solid #8b7b6d;
-}
-
-h1 {
-  margin: 0;
-  font-size: 2em;
-  color: #5a4633;
-}
-
-/* Navigation */
-.main-nav {
-  text-align: center;
-  padding: 10px;
-  background-color: #d8cbbd;
-}
-
-button {
-  background-color: #7a5b43;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  margin: 5px;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 1em;
-}
-button:hover {
-  background-color: #9a7657;
-}
-
-/* Home Columns */
-.home-columns {
-  display: flex;
-  justify-content: space-around;
-  padding: 30px;
-}
-.home-columns section {
-  width: 30%;
-  background-color: rgba(255, 255, 255, 0.85);
-  padding: 15px;
-  border-radius: 8px;
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
-}
-
-/* Staff Page */
-.staff-section {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  padding: 20px;
-}
-.staff-section article {
-  width: 40%;
-  background-color: rgba(255, 255, 255, 0.9);
-  margin: 10px;
-  padding: 15px;
-  border-radius: 8px;
-}
-.staff-section img {
-  width: 100%;
-  border-radius: 8px;
-}
-
-/* Collections Page */
-.subnav {
-  text-align: center;
-  padding: 15px;
-  background-color: #e5dbd1;
-}
-.subnav button {
-  background-color: #6b503a;
-  margin: 0 8px;
-}
-
-/* Footer */
-footer {
-  text-align: center;
-  background-color: rgba(240, 235, 230, 0.95);
-  padding: 20px;
-  border-top: 3px solid #8b7b6d;
-  font-size: 0.9em;
-}
